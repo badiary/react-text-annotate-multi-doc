@@ -95,7 +95,9 @@ function App() {
       <div>
         <TextAnnotateMulti
           text={demoText}
-          setLabelUnits={setLabelUnits}
+          updateLabelUnits={(newLabelUnits: LabelUnit[]) => {
+            setLabelUnits(newLabelUnits);
+          }}
           labelUnits={labelUnits}
           labelName={labelName}
           getBackgroungColor={getBackgroungColor}
@@ -242,10 +244,12 @@ type LabelUnit = {
                 </td>
               </tr>
               <tr>
-                <td>setLabelUnites</td>
-                <td>{"React.Dispatch<React.SetStateAction<LabelUnit[]>>"}</td>
+                <td>updateLabelUnites</td>
+                <td>{"(newLabelUnits: LabelUnit[]) => void"}</td>
                 <td>
-                  <code>React.SetStateAction</code> which updates labelUnits.
+                  Fired when label data is updated. Call
+                  <code>React.SetStateAction</code>
+                  in this function to update the state of labelUnits.
                 </td>
               </tr>
               <tr>

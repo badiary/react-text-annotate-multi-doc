@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/react-text-annotate-multi-doc/static/css/main.e2c2ee98.css",
-    "main.js": "/react-text-annotate-multi-doc/static/js/main.a245c47a.js",
+    "main.js": "/react-text-annotate-multi-doc/static/js/main.e7b28139.js",
     "index.html": "/react-text-annotate-multi-doc/index.html",
     "main.e2c2ee98.css.map": "/react-text-annotate-multi-doc/static/css/main.e2c2ee98.css.map",
-    "main.a245c47a.js.map": "/react-text-annotate-multi-doc/static/js/main.a245c47a.js.map"
+    "main.e7b28139.js.map": "/react-text-annotate-multi-doc/static/js/main.e7b28139.js.map"
   },
   "entrypoints": [
     "static/css/main.e2c2ee98.css",
-    "static/js/main.a245c47a.js"
+    "static/js/main.e7b28139.js"
   ]
 }

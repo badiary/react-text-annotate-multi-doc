@@ -87,7 +87,9 @@ function TextAnnotator() {
       <div>
         <TextAnnotateMulti
           text={demoText}
-          setLabelUnits={setLabelUnits}
+          updateLabelUnits={(newLabelUnits: LabelUnit[]) => {
+            setLabelUnits(newLabelUnits);
+          }}
           labelUnits={labelUnits}
           labelName={labelName}
           getBackgroungColor={getBackgroungColor}
